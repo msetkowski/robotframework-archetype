@@ -1,0 +1,34 @@
+# You can find the complete command line option's description in the RobotFrameworkUserGuide section 6.2
+
+# makes the single output line longer than default
+--consolewidth 120
+
+# prints the detailed output during execution  verbose|dotted|quiet|none
+--console verbose
+
+# enables colors used on console auto|on|ansi|off
+--consolecolors ansi
+
+# log file treshold FAIL|WARN|INFO|DEBUG|TRACE
+--loglevel INFO
+
+# flattens keywords in the generated outputs
+--flattenkeywords FOR
+
+# split log file into smaller pieces that open in browser transparently
+# --splitlog
+
+# Sets a title for the generated test log.
+# --logtitle <title>
+ 	
+# Sets a title for the generated test report.
+# --reporttitle <title>
+
+# Sets background colors of the generated report.
+# --reportbackground <colors>
+
+# Stops test execution if any critical test fails.
+# --exitonfailure
+ 	
+# Stops test execution if any error occurs when parsing test data, importing libraries, and so on.
+# --exitonerror	
