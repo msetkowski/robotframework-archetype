@@ -37,6 +37,11 @@
                         <variable>VERSION:${project.version}</variable>
                     </variables>
                     <argumentFile>src/test/resources/arguments</argumentFile>
+                    <excludes>
+                        <exclude>SKIP</exclude>
+                        <exclude>IGNORED</exclude>
+                        <exclude>DISABLED</exclude>
+                    </excludes>
                     <testCasesDirectory>${project.basedir}/src/test/robotframework</testCasesDirectory>
                 </configuration>
                 <executions>

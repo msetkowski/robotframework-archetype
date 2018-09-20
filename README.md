@@ -10,7 +10,8 @@ This archetype will generate module which contains
 * a sample Java based keywords (including usage of javalib-core library)
 * usage of variables defined in pom file
 * sharing the configuration between robot files
-* suite initialisation with _\_\_init\_\_.robot_ files 
+* suite initialisation with _\_\_init\_\_.robot_ files
+* pre-defined tags to skip selected tests 
 
 
 
