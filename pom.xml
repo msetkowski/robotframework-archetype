@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.msetkowski</groupId>
     <artifactId>robotframework-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>maven-archetype</packaging>
     <name>Robot Framework archetype for test projects</name>
 
@@ -24,7 +23,8 @@
     <scm>
         <url>https://github.com/msetkowski/robotframework-archetype.git</url>
         <developerConnection>scm:git:https://github.com/msetkowski/robotframework-archetype.git</developerConnection>
-    </scm>
+      <tag>robotframework-archetype-1.0.0</tag>
+  </scm>
 
     <build>
         <plugins>
