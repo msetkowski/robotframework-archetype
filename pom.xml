@@ -23,6 +23,7 @@
 
     <scm>
         <url>https://github.com/msetkowski/robotframework-archetype.git</url>
+        <developerConnection>scm:git:https://github.com/msetkowski/robotframework-archetype.git</developerConnection>
     </scm>
 
     <build>
